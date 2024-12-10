@@ -35,7 +35,7 @@
 \usepackage{soul}
 \usepackage{orcidlink}
 \usepackage{fontawesome}
-\input{glyphtounicode}
+%\input{glyphtounicode}
 \usepackage[margin=0.5in]{geometry}
 
 %----------FONT OPTIONS----------
@@ -68,8 +68,6 @@
 % -------------------------------------
 %----------PAGE SETUP------------------
 % -------------------------------------
-
-
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
@@ -218,12 +216,15 @@
 % -------------------------------------
 %---------- PROFESSIONAL SUMMARY ------
 % -------------------------------------
-
 \section{\textcolor{color1}{Professional Summary}}
 \vspace{-3pt}
 \begin{itemize}[leftmargin=0.15in, label={}]
     {\item{
-        {Engineer and software developer with a background in scientific computing. Experience solving problems in diverse computational science settings enables the application of novel techniques across domains. Skilled in the design and management of exploratory multi-year projects requiring flexibility, self-assessment mechanisms, and documentation suitable for publication. Proficient in presenting technical material to audiences with varying subject-matter expertise.} \\      
+        {Engineer and software developer with a background in biological scientific computing.
+         Experience solving problems in diverse computational science settings enables the application of novel techniques across domains.
+         Skilled in the design and management of exploratory multi-year projects requiring flexibility, self-assessment mechanisms, and documentation suitable for publication.
+         Proficient in presenting technical material to audiences with varying subject-matter expertise.
+        } \\      
     }}
  \end{itemize}
  \sectionspace
@@ -256,19 +257,17 @@
        % \titleItem{Programming}{: \emph{advanced} --- \textsc{C/C++, fortran, python}, \LaTeX} $|$ \emph{intermediate} --- \textsc{MATLAB} $|$ \emph{basic} --- \textsc{SQL, Bash, CUDA, Emacs Lisp, Tcl}\\
        \titleItem{Programming}{: \textsc{Python, MATLAB, Bash, R, Tcl}, \LaTeX, C/C++, CUDA, HTML}\\
        \vspace{1pt}
-       \titleItem{Tools}{: Unix/Linux, MacOS, Windows, AWS, SVN, Git, SSH, Docker, Apptainer, slurm, Jupyter}\\
+       \titleItem{Tools}{: Unix/Linux, MacOS, Windows, AWS, SVN, Git, SSH, Docker, Apptainer, slurm, Jupyter, MARTINI CG}\\
        \vspace{1pt}
-       \titleItem{Software}{: pandas, matplotlib, numpy, scipy, HTSeq, Guppy, minimap2, PyTorch, HDF5, VMD, biopython, MAFFT, Clustal, BLAST, bowtie2, deepTools, SAMtools} \\
+       \titleItem{Software}{: pandas, matplotlib, numpy, scipy, HTSeq, Guppy, minimap2, PyTorch, HDF5, VMD, biopython, MAFFT, Clustal, BLAST, bowtie2, deepTools, SAMtools, GROMACS, AMBERMD, NAMD} \\
        \vspace{1pt}
        \titleItem{Theoretical Training}{: 
        	\emph{Mathematics} --- Probability Theory, Stochastic Processes, Information Theory, Numerical Analysis, Linear Algebra, ODEs
        	 $|$ 
-       	\emph{Science \& Engineering} --- Biophysics, Systems Biology, Bioinformatics, Equil. and Nonequil. Statistical Physics and Thermodynamics, Quantum Mechanics, Chemical Kinetics}
+       	\emph{Science \& Engineering} --- Biophysics, Systems Biology, Bioinformatics, Molecular Dynamics,Equil. and Nonequil. Statistical Physics and Thermodynamics, Quantum Mechanics, Chemical Kinetics}
      }}
  \end{itemize}
  \sectionspace
-
-
 
     
 % -------------------------------------
@@ -277,7 +276,7 @@
 \section{\textcolor{color1}{Experience}}
 \resumeSubHeadingListStart
 \resumeProjectHeading
-{\titleItem{{Graduate/Postdoctoral Research Assistant}} $|$ \emph{Luthey-Schulten Group}, Dept. of Chemistry at UIUC}{\textcolor{color2}{Jan 2020 -- present}}
+{\titleItem{{Graduate/Postdoctoral Research Assistant}} $|$ \emph{Luthey-Schulten Group}, Dept. of Chemistry at UIUC}{\textcolor{color2}{Jan 2018 -- present}}
 \vspace{2pt}
 \resumeItemListStart
 \resumeItem{Used GPU-accelerated, hybrid stochastic-deterministic methods~(C++, CUDA, python) to simulate whole-cell models of bacteria that capture the reaction and diffusion of $\sim$10,000 biochemical components at the cell-scale.}
@@ -298,59 +297,55 @@
   \end{itemize}
 }
 %\resumeItem{Coauthored computational whole-cell models of a bacterium that simulate the reaction and diffusion of biochemical components at the cell-scale using hybrid stochastic-deterministic methods on GPUs.}
-\resumeItem{Assisted PI in preparation of grant materials to acquire \$30M+ in federal funding: \emph{NSF~DBI~2243257} - \$29.78M (campus pre-proposal, proposal, and site-visit) $|$ \emph{NSF~MCB~2221237} - \$2.00M (proposal, annual reports) $|$ \emph{NSF~MCB~1818344} - \$1.50M (annual reports) $|$ \emph{NSF~MCB~1840320} - \$1.18M (annual reports).}
+\resumeItem{Assisted PI in preparation of grant materials to acquire federal funding: \emph{NSF~MCB~2221237} - \$2.00M (proposal, annual reports) $|$ \emph{NSF~MCB~1818344} - \$1.50M (annual reports) $|$ \emph{NSF~MCB~1840320} - \$1.18M (annual reports).}
 \resumeItem{Collaborated with industrial and academic partners, both domestic and international.}
 \resumeItem{Presented research results to broader scientific community at domestic and international conferences.}
 \resumeItem{Mentored junior graduate and undergraduate student researchers.}
 \resumeItemListEnd
 
 \vspace{\experienceitemvspace}
-
 \resumeProjectHeading
-{\titleItem{{Graduate Teaching Assistant}} $|$ \emph{Statistical Thermodynamics}, Dept. of Chemistry at UIUC}{\textcolor{color2}{Fall 2019, Fall 2020}}
+{\titleItem{{Graduate Teaching Assistant}} $|$ Dept. of Chemistry at UIUC}{\textcolor{color2}{Fall 2017, Fall 2029}}
 \vspace{2pt}
 \resumeItemListStart
-\resumeItem{Prepared course materials, graded, and hosted office hours~(\href{https://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2020-fall.pdf}{\emph{rated as excellent by students)}}.}
+\resumeItem{Instrumental Analysis - }
+\resumeItem{Statistical Thermodynamics - }
 \resumeItemListEnd
 
 \vspace{\experienceitemvspace}
-
 \resumeProjectHeading
-{\titleItem{{Graduate Research Assistant}} $|$ \emph{Stephani Group}, Dept. of Mechanical Science and Engineering at UIUC}{\textcolor{color2}{Aug 2017 -- Jun 2019}}
+{\titleItem{{Seminar/Workshop Teaching Assistant}} $|$ \emph{The Luthey-Schulten Group}, Dept. of Chemistry at UIUC}{\textcolor{color2}{May 2024, October 2021, July 2019}}
 \vspace{2pt}
 \resumeItemListStart
-\resumeItem{Generated 250GB+ databases of collisional cross-sections for state-specific CO+O reaction chemistry during Martian atmospheric reentry by running quasi-classical trajectory simulations on cluster at NASA Ames.}
-\resumeItem{Developed workflow to validate and merge databases, then fit functional forms to cross-sections with weighted least-squares~(fortran with LAPACK) for implementation in DSMC simulations of gas kinetics.}
+\resumeItem{placeholder}
+\resumeItem{NSF STC-QCB Advanced Computational Workshop 2024 TA}
+\resumeItem{Online Hands-on Workshop on Computational Biophysics TA}
+\resumeItem{Center for the Physics of Living Cells (CPLC) Summer School TA}
+\resumeItemListEnd
+
+
+\vspace{\experienceitemvspace}
+\resumeProjectHeading
+{\titleItem{{REU Summer Research Intern}} $|$ \emph{The McCullagh Group}, Dept. of Chemistry at Colorado State University}{\textcolor{color2}{May 2016 -- July 2016}}
+\vspace{2pt}
+\resumeItemListStart
+\resumeItem{placeholder}
 \resumeItemListEnd
 
 \vspace{\experienceitemvspace}
-
 \resumeProjectHeading
-{\titleItem{{Mechanical Engineering Intern}} $|$ Page Southerland Page, Inc. in Austin, TX}{\textcolor{color2}{May 2016 -- Aug 2016}}
+{\titleItem{{Undergraduate Research Assistant}} $|$ \emph{The Baker Group}, Dept. of Chemistry at TCNJ}{\textcolor{color2}{Sept 2015 -- May 2017}}
 \vspace{2pt}
 \resumeItemListStart
-\resumeItem{Reviewed building MEP plans in AutoCAD and implemented archived mechanical equipment specifications in Revit.}
+\resumeItem{placeholder}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 \sectionspace
 \vspace{9pt}
-
 % -------------------------------------
 %----------EDUCATION-------------------
 % -------------------------------------
-
-% \section{Education}
-%   \resumeSubHeadingListStart
-%     \resumeSubheading
-%       {University of Utah}{Salt Lake City, UT}
-%       {MS in Computer Science | GPA: 3.86}{January 2021 -- December 2023} 
-%     \resumeSubheading
-%       {SRM University}{Chennai, TN, India}
-%       {Bachelor of Technology in Computer Science and Engineering | GPA: 3.4}{August 2012 -- May 2016}
-%   \resumeSubHeadingListEnd
-% \vspace{-12pt}
-
 \section{\textcolor{color1}{Education}}
 % \resumeSubHeadingListStart
 % \resumeSubheading
@@ -378,7 +373,6 @@
 % ------------------------------------------
 % ----------PUBLICATIONS--------------------
 % ------------------------------------------
-
 \section{\textcolor{color1}{Selected Publications {\normalsize (\orcidlinkalt{0000-0002-9530-6517}})}}
 % \resumeSubHeadingListStart
 
@@ -398,13 +392,11 @@
 \end{itemize}
 
 
-
 % \resumeSubHeadingListEnd
 
 % -------------------------------------
 % ----------PROJECTS--------------------
 % -------------------------------------
-
 % \section{Projects}    
 % \resumeSubHeadingListStart
 % \resumeProjectHeading
@@ -425,6 +417,5 @@
 % \resumeItem{In cursus turpis massa tincidunt dui. Cras pulvinar mattis nunc sed blandit libero volutpat sed. Suspendisse potenti nullam ac tortor. }
 % \resumeItemListEnd
 % \resumeSubHeadingListEnd
-
 %-------------------------------------------
 \end{document}
