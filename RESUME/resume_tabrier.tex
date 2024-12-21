@@ -110,7 +110,6 @@
 \sethlcolor{lightyellow} % Highlights
 
 %--------------- Custom commands -----------------------
-
 \newcommand{\sectionspace}{
 \vspace{-17pt}
 }
@@ -126,6 +125,11 @@
     {#1 \vspace{-4pt}}
   }
 }
+%%%for insets use
+%  \vspace{-2.5pt}
+%\begin{itemize}
+%\end{itemize}
+
 
 % Titles
 \newcommand{\titleItem}[1]{
@@ -159,7 +163,6 @@
 % }
 
 
-
 % Resume Sub-sub heading
 \newcommand{\resumeSubSubheading}[2]{
     \item
@@ -188,16 +191,13 @@
 % \vspace{-6pt}
 \end{itemize}\vspace{-8pt}}
 
-
 %-------------------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%
 %-------------------------------------------------------
 \begin{document}
-
 % -------------------------------------
 %----------HEADING---------------------
 % -------------------------------------
-
 \begin{flushleft}
     \textbf{\Large Troy A. Brier} \\    
     %\textit{Champaign-Urbana, Illinois} {\large $|$}
@@ -220,11 +220,11 @@
 \vspace{-3pt}
 \begin{itemize}[leftmargin=0.15in, label={}]
     {\item{
-        {Engineer and software developer with a background in biological scientific computing.
-         Experience solving problems in diverse computational science settings enables the application of novel techniques across domains.
+        {Chemist and software developer with a background in biological scientific computing.
+         Experienced solving diverse problems in computational science settings enables the application of novel techniques across domains.
          Skilled in the design and management of exploratory multi-year projects requiring flexibility, self-assessment mechanisms, and documentation suitable for publication.
          Proficient in presenting technical material to audiences with varying subject-matter expertise.
-        } \\      
+        } \\
     }}
  \end{itemize}
  \sectionspace
@@ -248,7 +248,6 @@
 % -------------------------------------
 %----------TECHNICAL SKILLS------------
 % -------------------------------------
-
  \section{\textcolor{color1}{Technical Skills}}
  \subheadingtitlevspace
  \begin{itemize}[leftmargin=0.15in, label={}]
@@ -257,88 +256,89 @@
        % \titleItem{Programming}{: \emph{advanced} --- \textsc{C/C++, fortran, python}, \LaTeX} $|$ \emph{intermediate} --- \textsc{MATLAB} $|$ \emph{basic} --- \textsc{SQL, Bash, CUDA, Emacs Lisp, Tcl}\\
        \titleItem{Programming}{: \textsc{Python, MATLAB, Bash, R, Tcl}, \LaTeX, C/C++, CUDA, HTML}\\
        \vspace{1pt}
-       \titleItem{Tools}{: Unix/Linux, MacOS, Windows, AWS, SVN, Git, SSH, Docker, Apptainer, slurm, Jupyter, MARTINI CG}\\
+       \titleItem{Tools}{: Unix/Linux, MacOS, Windows, AWS, SVN, Git, SSH, Docker, Apptainer, slurm, Jupyter, VScode, MARTINI CG, NVIDIA DGX}\\
        \vspace{1pt}
-       \titleItem{Software}{: pandas, matplotlib, numpy, scipy, HTSeq, Guppy, minimap2, PyTorch, HDF5, VMD, biopython, MAFFT, Clustal, BLAST, bowtie2, deepTools, SAMtools, GROMACS, AMBERMD, NAMD} \\
+       \titleItem{Software}{: pandas, matplotlib, seaborn, numpy, scipy, biopython, cobra, HTSeq, Guppy, minimap2, PyTorch, sklearn, HDF5, VMD, MAFFT, Clustal, BLAST, deepTools, SAMtools, GROMACS, AMBERMD, NAMD, AlphaFold2} \\
        \vspace{1pt}
-       \titleItem{Theoretical Training}{: 
+       \titleItem{Theoretical Training}{:
        	\emph{Mathematics} --- Probability Theory, Stochastic Processes, Information Theory, Numerical Analysis, Linear Algebra, ODEs
        	 $|$ 
-       	\emph{Science \& Engineering} --- Biophysics, Systems Biology, Bioinformatics, Molecular Dynamics,Equil. and Nonequil. Statistical Physics and Thermodynamics, Quantum Mechanics, Chemical Kinetics}
+       	\emph{Science \& Engineering} --- Biophysics, Systems Biology, Bioinformatics, Molecular Dynamics, Equil. and Nonequil. Statistical Physics and Thermodynamics, Quantum Mechanics, Chemical Kinetics}
      }}
  \end{itemize}
  \sectionspace
 
-    
 % -------------------------------------
 %----------EXPERIENCE------------------
 % -------------------------------------
 \section{\textcolor{color1}{Experience}}
 \resumeSubHeadingListStart
 \resumeProjectHeading
-{\titleItem{{Graduate/Postdoctoral Research Assistant}} $|$ \emph{Luthey-Schulten Group}, Dept. of Chemistry at UIUC}{\textcolor{color2}{Jan 2018 -- present}}
+{\titleItem{{Graduate/Postdoctoral Research Assistant}} $|$ \emph{The Luthey-Schulten Group}, Dept. of Chemistry at UIUC}{\textcolor{color2}{Jan 2018 -- present}}
 \vspace{2pt}
 \resumeItemListStart
-\resumeItem{Used GPU-accelerated, hybrid stochastic-deterministic methods~(C++, CUDA, python) to simulate whole-cell models of bacteria that capture the reaction and diffusion of $\sim$10,000 biochemical components at the cell-scale.}
-\resumeItem{Developed and authored computational models~(C++, fortran, python) of chromosomes in bacteria.
-  \vspace{-2.5pt}
+\resumeItem{Constructed a stochastic kinetic model using data collected from super-resolution imaging experiments to simulate the sugar-stress response in \textit{Escherichia coli}.}
+\resumeItem{Collaborated in the use of GPU-accelerated, hybrid stochastic-deterministic methods to simulate whole-cell models of bacteria that capture the reaction and diffusion of $\sim$10,000 biochemical components at the cell-scale.}
+%  \vspace{-1pt}
   \begin{itemize}
-  \setlength\itemsep{-1pt}
-\item Continuum polymer model~(C++) to simulate motion of chromosomes at 10~base-pair resolution.
-  \vspace{-2.5pt}
-    \begin{itemize}
-    \item Developed and documented script-based C++ program to enable a variety of simulation protocols.
-    \item Programmed new OpenMP-accelerated Brownian dynamics integrator called using C++-API of LAMMPS.
-    \item Created novel representation for the replication states of circular chromosomes using binary trees.
-      % \item Implemented algorithms to emulate local action of DNA-manipulating proteins reorganizing the chromosome.
-    \end{itemize}
-  \item Lattice polymer model~(fortran) to generate chromosome geometries using Monte Carlo methods.
-  \item Created tools~(python, fortran) to analyze replication-dependent chromosome conformation capture maps.
+	\setlength\itemsep{-1pt}
+	\item Constructed a kinetic model of the nucleotide metabolism for a bacteria cell.
+	\item Organized genomics, transcriptomics, proteomics, metabolomics, and kinetic rates data.
+	\item Updated software/code for use on high performance GPU cluster.
+\end{itemize}
+\vspace{-5pt}
+\resumeItem{Developed a methodology to profile the bacterial transcriptome coupling bioinformatics and experiment.
+  \vspace{-4pt}
+  \begin{itemize}
+  \setlength\itemsep{-1.5pt}
+  \item Built a sequence alignment based pipeline to identify genetic motifs within a bacterial genome and predict transcriptional events.
+  \item Analyzed Illumina, Pacific Biosciences, and Oxford Nanopore Technologies RNA sequencing experiments.
+  \item Created tools to predicted transcription units, and visualize the RNA isofrom.
   \end{itemize}
-}
-%\resumeItem{Coauthored computational whole-cell models of a bacterium that simulate the reaction and diffusion of biochemical components at the cell-scale using hybrid stochastic-deterministic methods on GPUs.}
+}\vspace{-2.5pt}
 \resumeItem{Assisted PI in preparation of grant materials to acquire federal funding: \emph{NSF~MCB~2221237} - \$2.00M (proposal, annual reports) $|$ \emph{NSF~MCB~1818344} - \$1.50M (annual reports) $|$ \emph{NSF~MCB~1840320} - \$1.18M (annual reports).}
+\resumeItem{Maintained GPU cluster and website.}
 \resumeItem{Collaborated with industrial and academic partners, both domestic and international.}
 \resumeItem{Presented research results to broader scientific community at domestic and international conferences.}
 \resumeItem{Mentored junior graduate and undergraduate student researchers.}
 \resumeItemListEnd
 
-\vspace{\experienceitemvspace}
-\resumeProjectHeading
-{\titleItem{{Graduate Teaching Assistant}} $|$ Dept. of Chemistry at UIUC}{\textcolor{color2}{Fall 2017, Fall 2029}}
-\vspace{2pt}
-\resumeItemListStart
-\resumeItem{Instrumental Analysis - }
-\resumeItem{Statistical Thermodynamics - }
-\resumeItemListEnd
+%\vspace{\experienceitemvspace}
+%\resumeProjectHeading
+%{\titleItem{{Graduate Teaching Assistant}} $|$ Dept. of Chemistry at UIUC}{\textcolor{color2}{Fall 2017, Fall 2019}}
+%\vspace{2pt}
+%\resumeItemListStart
+%\resumeItem{Instrumental Analysis---Supervised laboratory sessions for multiple instruments, prepared course materials, graded, and hosted office hours}
+%\resumeItem{Statistical Thermodynamics---Prepared course materials, graded, and hosted office hours}
+%\resumeItemListEnd
 
 \vspace{\experienceitemvspace}
 \resumeProjectHeading
 {\titleItem{{Seminar/Workshop Teaching Assistant}} $|$ \emph{The Luthey-Schulten Group}, Dept. of Chemistry at UIUC}{\textcolor{color2}{May 2024, October 2021, July 2019}}
 \vspace{2pt}
 \resumeItemListStart
-\resumeItem{placeholder}
-\resumeItem{NSF STC-QCB Advanced Computational Workshop 2024 TA}
-\resumeItem{Online Hands-on Workshop on Computational Biophysics TA}
-\resumeItem{Center for the Physics of Living Cells (CPLC) Summer School TA}
+\resumeItem{NSF STC-QCB Advanced Computational Workshop 2024---Mentored junior graduate students to construct teaching material, installed software on supercomputer, and troubleshot errors during live tutorials.}
+\resumeItem{Online Hands-on Workshop on Computational Biophysics---Held virtual lecture for graduate students and post-doctoral and prepared tutorials run on AWS instances.}
+\resumeItem{Center for the Physics of Living Cells (CPLC) Summer School---Held lectures for graduate students and post-doctoral associates and prepared tutorials run on AWS instances.}
 \resumeItemListEnd
 
+%\vspace{\experienceitemvspace}
+%\resumeProjectHeading
+%{\titleItem{{REU Summer Research Intern}} $|$ \emph{The McCullagh Group}, Dept. of Chemistry at Colorado State University}{\textcolor{color2}{May 2016 -- July 2016}}
+%\vspace{2pt}
+%\resumeItemListStart
+%\resumeItem{Performed molecular dynamics simulations to identify ligand binding site for applications in drug design.}
+%\resumeItemListEnd
 
-\vspace{\experienceitemvspace}
-\resumeProjectHeading
-{\titleItem{{REU Summer Research Intern}} $|$ \emph{The McCullagh Group}, Dept. of Chemistry at Colorado State University}{\textcolor{color2}{May 2016 -- July 2016}}
-\vspace{2pt}
-\resumeItemListStart
-\resumeItem{placeholder}
-\resumeItemListEnd
-
-\vspace{\experienceitemvspace}
-\resumeProjectHeading
-{\titleItem{{Undergraduate Research Assistant}} $|$ \emph{The Baker Group}, Dept. of Chemistry at TCNJ}{\textcolor{color2}{Sept 2015 -- May 2017}}
-\vspace{2pt}
-\resumeItemListStart
-\resumeItem{placeholder}
-\resumeItemListEnd
+%\vspace{\experienceitemvspace}
+%\resumeProjectHeading
+%{\titleItem{{Undergraduate Research Assistant}} $|$ \emph{The Baker Group}, Dept. of Chemistry at TCNJ}{\textcolor{color2}{Sept 2015 -- May 2017}}
+%\vspace{2pt}
+%\resumeItemListStart
+%\resumeItem{Explored atomistic and coarse grained molecular dynamics simulations of membrane bound proteins}
+%\resumeItem{Presented research results to broader scientific community at domestic conferences.}
+%\resumeItem{Mentored junior undergraduate student researchers.}
+%\resumeItemListEnd
 
 \resumeSubHeadingListEnd
 \sectionspace
@@ -347,18 +347,6 @@
 %----------EDUCATION-------------------
 % -------------------------------------
 \section{\textcolor{color1}{Education}}
-% \resumeSubHeadingListStart
-% \resumeSubheading
-% {University of Illinois at Urbana-Champaign}{GPA : 3.86}
-% {PhD in Chemistry}{\textcolor{color2}{2020 -- present}}
-% \resumeSubheading
-% {University of Illinois at Urbana-Champaign}{GPA : 3.75}
-% {MS in Mechanical Engineering}{\textcolor{color2}{2017 -- 2019}}
-% \resumeSubheading
-% {Texas Tech University}{GPA : 3.75}
-% {BS in Mechanical Engineering}{\textcolor{color2}{2013 -- 2017}}
-% \resumeSubHeadingListEnd
-
 \vspace{-3pt}
 {
   \setlength\tabcolsep{0pt}
@@ -380,8 +368,7 @@
   \setlength\itemsep{-0.4em}
 \item \textcolor{color1}{T. A. Brier}, J. E. Cournoyer, B. R. Gilbert, S. A. Glass, Y. Gao, Z. R. Thornburg, K. Goglin, G. John, T. Mamaghani, S. Shivakumar,   Y. Yu, C. Fields, J. I. Glass, A. P. Mehta, Z. Luthey-Schulten, \textbf{Unraveling the Transcriptional Landscape within a Minimized Bacterium via Comparative Analysis}, \textit{in preparation}
 
-\item T. E. Long, Z. R. Thornburg, B. R. Gilbert, T. A. Brier, Z. Luthey-Schulten, J. I. Glass (ed.), \textbf{Chapter --- Determining the Rules of Life of the Minimal Cell Using Whole-Cell Simulation}, \textit{Minimal Genomes and Their Applications,~Royal Society of Chemistry 2024, (in press)}
-
+%\item T. E. Long, Z. R. Thornburg, B. R. Gilbert, \textcolor{color1}{T. A. Brier}, Z. Luthey-Schulten, J. I. Glass (ed.), \textbf{Chapter --- Determining the Rules of Life of the Minimal Cell Using Whole-Cell Simulation}, \textit{Minimal Genomes and Their Applications,~Royal Society of Chemistry 2024, (in press)}
 
 \item B. R. Gilbert, Z. R. Thornburg, \textcolor{color1}{T. A. Brier}, J. A. Stevens, F. Gr\"{u}newald, J. E. Stone, S. J. Marrink, Z. Luthey-Schulten, \textbf{Dynamics of Chromosome Organization in a Minimal Bacterial Cell}, \href{https://doi.org/10.3389/fcell.2023.1214962}{\textit{Frontiers in Cell and Developmental Biology 2023}}%, \href{https://doi.org/10.3389/fcell.2023.1214962}{DOI:10.3389/fcell.2023.1214962}
 
@@ -391,7 +378,7 @@
 
 \item D. M. Bianchi, \textcolor{color1}{T. A. Brier}, A. Poddar, M. S. Azam, C. K. Vanderpool, T. Ha, Z. Luthey-Schulten, \textbf{Stochastic Analysis Demonstrates the Dual Role of Hfq in Chaperoning \textit{E. coli} Sugar Shock}, \href{https://doi.org/10.3389/fmolb.2020.593826}{\textit{Frontiers in Molecular Biosciences 2020}}%, \href{https://doi.org/10.3389/fmolb.2021.644133}{DOI:10.3389/fmolb.2021.644133}
 
-\item Z. R. Thornburg, M. C.R. Melo, D. M. Bianchi, \textcolor{color1}{T. A. Brier}, C. Crotty, M. Breuer, H. O. Smith, C. A. Hutchison III, J. I. Glass, Z. Luthey-Schulten, \textbf{Kinetic Modeling of the Genetic Information Processes in a Minimal Cell}, \href{https://doi.org/10.3389/fmolb.2019.00130}{\textit{Frontiers in Molecular Biosciences 2019}}%, \href{https://doi.org/10.1016/j.cell.2021.12.025}{DOI:10.1016/j.cell.2021.12.025}
+%\item Z. R. Thornburg, M. C.R. Melo, D. M. Bianchi, \textcolor{color1}{T. A. Brier}, C. Crotty, M. Breuer, H. O. Smith, C. A. Hutchison III, J. I. Glass, Z. Luthey-Schulten, \textbf{Kinetic Modeling of the Genetic Information Processes in a Minimal Cell}, \href{https://doi.org/10.3389/fmolb.2019.00130}{\textit{Frontiers in Molecular Biosciences 2019}}%, \href{https://doi.org/10.1016/j.cell.2021.12.025}{DOI:10.1016/j.cell.2021.12.025}
 \end{itemize}
 
 
