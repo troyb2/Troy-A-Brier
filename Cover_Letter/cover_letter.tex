@@ -29,7 +29,7 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{awesome-orange}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -45,7 +45,6 @@
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
@@ -74,7 +73,10 @@
 % \extrainfo{extra informations}
 
 %\quote{``Be the change that you want to see in the world."}
-
+\newcommand{\companyname}{Wistar Institute}
+\newcommand{\role}{Bioinformatics Analyst}
+\newcommand{\brole}{\textbf{\role}}
+\newcommand{\erole}{\emph{\role}}
 
 %-------------------------------------------------------------------------------
 %	LETTER INFORMATION
@@ -82,19 +84,19 @@
 %-------------------------------------------------------------------------------
 % The company being applied to
 \recipient
-{Company Recruitment Team}
-{Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+{Wistar Institute Recruitment Team}
+{The \companyname\\3601 Spruce Street\\Philadelphia, PA 19104}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Job Application for Software Engineer}
+\lettertitle{Job Application for \role}
 % How the letter is opened
-\letteropening{Dear Mr./Ms./Dr. LastName,}
+\letteropening{To whom it may concern,}
+%\letteropening{Dear Mr./Ms./Dr. LastName,} %known sender
 % How the letter is closed
 \letterclosing{Sincerely,}
 % Any enclosures with the letter
 %\letterenclosure[Attached]{Curriculum Vitae}
-
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -119,23 +121,48 @@
 	\begin{cvletter}
 		
 		\lettersection{About Me}
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
-		
-		\lettersection{Why Google?}
-		Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+		%doesnt really need to change job by job as long as they are computational with "research focus"
+		I am a physical chemist by training with a background in scientific computing with a focus on biological systems.
+		Specifically, I have utilized principles from chemistry, physics, and statistics to investigate diverse phenomena within bacterial cells such as a regulatory mechanisms for stress response and the functional relationships between the transcriptome and proteome.	
+		In my career, I have achieved proficiency in a wide array of computational tools to implement analytical pipelines within multiple different environments (HPC, AWS, Docker, Conda) on various operating systems (Linix, MacOS, Windows) leveraging custom and pre-built software packages within standard coding languages (Python \& R).
+		Additionally, I have developed skills in designing, managing, and contributing to exploratory multi-year projects requiring flexibility, self-assessment, reproducibility, and documentation suitable for publication.
+		I have extensive experience working in highly collaborative environments, domestic and foreign, and I am proficient in presenting technical material to audiences with varying subject-matter expertise.
+				
+		\lettersection{Why the \companyname?}
+		%how do i fit the mission of the company / goals
+		My former experience has given me a deep appreciation for scientific innovation and more importantly the obligation to extend  innovation beyond the laboratory and into the real world. 	
+		Therefore, I am particularly drawn to \companyname's mission to accelerate research advances from bench to bedside in biomedical areas very important to our society.
+		Furthermore, the \companyname's dedication to collaborative science is exactly the type of environment I would like to be a member of.
+		As a leader in biomedical research, I am enticed by the~\companyname's commitment (and track record) to produce novel and courageous scientific discovery.  
+		I would welcome the opportunity to join your team to help make~\companyname's vision a reality.
 		
 		\lettersection{Why Me?}
-		Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+		%should talk about things on the job listing skills i have 
+		As a computational chemist, I 		have a deep understanding of fundamental biological principles, complemented by hands-on experience in scientific computing. 
+		believe \brole.
+		This unique combination has enabled me to design and manage exploratory multi-year projects, requiring adaptability, meticulous documentation, 
+		and effective communication with diverse audiences. My problem-solving abilities are enhanced by a commitment to learning and integrating novel techniques across disciplines, ensuring optimal outcomes for collaborative research endeavors.
+		I have also worked extensively with repositories such as TCGA, COSMIC, and UCSC Genome Browser, utilizing these resources to address challenging biological questions.
+		
+		
+		working proficiency in Unix/Linux operating system
+		knowledge of R, and/or Python scripting language
+		basic proficiency in statistical testing
+		understanding of fundamental biological principles
+		strong problem solving and communication skills required
+		familiarity with repositories of genomic data sets and analysis tools, such as TCGA, ICGC, COSMIC, ENCODE, ExAc, UCSC Genome Browser
+		
+		
+		
 		
 	\end{cvletter}
 	~\newline
-	~\newline
+%	~\newline
 	Thank you for considering my application. I would welcome the opportunity to discuss my qualifications further. \\
 	\newline
-	~\newline
+%	~\newline
 	~\newline
 	%-------------------------------------------------------------------------------
 	% Print the signature and enclosures with above letter informations
-	\makeletterclosing
-	
+	\makeletterclosing	
 \end{document}
