@@ -1,3 +1,6 @@
+###########################
+####### EXPERIENCES #######
+###########################
 GRADUATE/ POSTDOCTORAL RESEARCH ASSISTANT   01/2018-12/2024
 The Luthey-Schulten Group at Univeristy of Illinois at Urbana-Champaign
 – Doctoral Dissertation: Shaping the bacterial transcriptome: Perspectives from kinetic modeling
@@ -48,7 +51,10 @@ design.
 – Presented poster of results at a poster session.
 
 
-SKILLS
+
+######################
+####### SKILLS #######
+######################
 PYTHON
 MATLAB
 BASH
@@ -87,21 +93,37 @@ NGS Technologies
 
 
 
+#########################
+###### Soft Skills ######
+#########################
 People Management
 Resource Management
 Big Data Management
 Big Data Processing
 
 
-References
+
+########################
+###### References ######
+########################
 Zan - Professor of Chemistry
 Thesis Advisor
 zan@illinois.edu
 217 721 4872
 
-John Glass
-Director (of the JCVI Synthetic Biology Group)
+John Glass - Director (of the JCVI Synthetic Biology Group)
 Scientific Collaborator
 jglass@jcvi.edu
 858 200 1856
+
+
+Carin Vanderpool - Professor of Microbiology
+Scientific Collaborator
+cvanderp@illinois.edu
+217 333 7033
+
+John Stone -
+Scientific Collaborator
+
+
 
