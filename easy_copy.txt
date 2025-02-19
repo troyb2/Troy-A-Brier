@@ -21,7 +21,7 @@ reports) | NSF MCB 1818344 - $1.50M (annual reports) | NSF MCB 1840320 - $1.18M 
 – Presented research results to broader scientific community at domestic and international conferences
 
 
-SEMINAR/WORKSHOP TEACHING ASSITANT - 05/2024 10/2021 07/2016
+SEMINAR/WORKSHOP TEACHING ASSITANT - 05/2024 10/2021 07/2019
 The Luthey-Schulten Group at Univeristy of Illinois at Urbana-Champaign
 – NSF STC-QCB Advanced Computational Workshop 2024—Mentored junior graduate students to construct teaching
 material, installed software on supercomputer, and troubleshot errors during live tutorials.
@@ -91,3 +91,17 @@ People Management
 Resource Management
 Big Data Management
 Big Data Processing
+
+
+References
+Zan - Professor of Chemistry
+Thesis Advisor
+zan@illinois.edu
+217 721 4872
+
+John Glass
+Director (of the JCVI Synthetic Biology Group)
+Scientific Collaborator
+jglass@jcvi.edu
+858 200 1856
+

@@ -782,9 +782,12 @@
   \begin{singlespace}
     \recipientaddressstyle{\@recipientaddress} \\\\
   \end{singlespace}
+  \vspace{-25pt}
   \ifthenelse{\isundefined{\@lettertitle}}
     {}
-    {\lettertitlestyle{\@lettertitle} \\}
+    {\lettertitlestyle{\@lettertitle} \\\\}
+
+  \vspace{-20pt}
   \lettertextstyle{\@letteropening}
 }
 
@@ -793,9 +796,9 @@
 \newcommand*{\makeletterclosing}{%
   \vspace{3.4mm}
   \lettertextstyle{\@letterclosing} \\\\
-  \letternamestyle{\@firstname\ \@lastname}
+  \letternamestyle{~~~~~~~\@firstname\ \@lastname}
   \ifthenelse{\isundefined{\@letterenclosure}}
-    {\\}
+    {}
     {%
       \\\\\\
       \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
