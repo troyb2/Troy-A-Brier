@@ -1,0 +1,20 @@
+Hello *Name*,
+
+I hope this email finds you well. My name is Troy A. Brier and I was referred to you by *REFERENCE*. *REFERENCE* recommended reaching out to you as I am currently looking for new employment opportunities and thought you might be able to connect me with potential hiring managers within your *COMPANY* network. 
+
+He said to inform you which positions I have already applied for at J&J. Below are the those that I have applied to:
+
+    Postdoctoral Scientist, Spatial Transcriptomics, JobID:2406227907W (https://jnjc.taleo.net/careersection/2/jobdetail.ftl?job=2406227907W&lang=en&src=JB-10280)
+    Principal Scientist- Data Science, JobID:2506236735W (https://jnjc.taleo.net/careersection/2/jobdetail.ftl?job=2506236735W&lang=en)
+    Principal Scientist, Data Science, JobID:2506238028W (https://jnjc.taleo.net/careersection/2/jobdetail.ftl?job=2506238028W&lang=en)
+    Sr. Data Scientist - Shockwave Medical, JobID:2506235938W (https://jobs.jnj.com/en/jobs/2506235938w/sr-data-scientist-shockwave-medical/)
+
+
+I am particularly interested in computational work targeting biological systems. I believe my background using computation to probe biological systems through simulations or bioinformatic tools could be a strong fit for roles at Johnson & Johnson. While I am open to many types of positions, I'm especially keen on R&D and/or data science related roles. I have attached my resume for reference to provide more context about my background.
+
+If you have any questions or need any clarifications please feel free to reach out. I am happy to meet with you or anyone else to talk more.
+
+Thank you for your time,
+
+Sincerely,
+      Troy Brier
