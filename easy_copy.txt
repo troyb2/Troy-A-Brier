@@ -9,7 +9,7 @@ sugar-stress response in Escherichia coli.
 – Collaborated in the use of GPU-accelerated, hybrid stochastic-deterministic methods to simulate whole-cell models of
 bacteria that capture the reaction and diffusion of ∼10,000 biochemical components at the cell-scale.
 	* Constructed a kinetic model of the nucleotide metabolism for a bacteria cell.
-	* Curated genomics, transcriptomics, proteomics, metabolomics, and kinetic rates data.
+	* Curated genomics, transcriptomics, proteomics, metabolomics, and kinetic rates data from experiments/databases.
 	* Updated software/code for use on high performance GPU cluster.
 – Developed a methodology to profile the bacterial transcriptome coupling bioinformatics and computational analysis of
 NGS experiments.
