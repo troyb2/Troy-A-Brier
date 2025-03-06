@@ -17,10 +17,15 @@ print(outfile)
 print(args.in_dir)
 print('#####################################################################')
 
-file_list = glob.glob(str(args.in_dir)+'*')
+#file_list = glob.glob(str(args.in_dir)+'*')
+if str(args.in_dir)=='cv':
+    file_list = ['letter.pdf','cv.pdf']
+elif str(args.in_dir)=='resume':
+    file_list = ['letter.pdf','resume.pdf']
+else:
+    print('NEED TO DEFINE CV OR RESUME')
+    file_list=[]
 
-
-file_list = ['letter.pdf','resume.pdf']
 merger = PdfMerger()
 
 for f in file_list:
