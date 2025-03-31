@@ -8,17 +8,17 @@ The Luthey-Schulten Group at Univeristy of Illinois at Urbana-Champaign
 – Doctoral Dissertation: Shaping the bacterial transcriptome: Perspectives from kinetic modeling
 – Constructed a stochastic kinetic model using data collected from super-resolution imaging experiments to simulate the sugar-stress response in Escherichia coli.
 – Collaborated in the use of GPU-accelerated, hybrid stochastic-deterministic methods to simulate whole-cell models of bacteria that capture the reaction and diffusion of ∼10,000 biochemical components at the cell-scale.
-	* Constructed a kinetic model of the nucleotide metabolism for a bacteria cell.
-	* Curated genomics, transcriptomics, proteomics, metabolomics, and kinetic rates data from experiments/databases.
+	* Constructed a kinetic model of the nucleotide metabolism for a bacterial cell.
+	* Curated genomics, transcriptomics, proteomics, metabolomics, and kinetic rates from experiments/databases.
 	* Updated software/code for use on high performance GPU cluster.
 – Developed a methodology to profile the bacterial transcriptome coupling bioinformatics and computational analysis of NGS experiments.
-	* Built a sequence alignment based pipeline to identify genetic motifs within a bacterial genome and predict transcriptional events.
+	* Built a sequence-alignment based pipeline to identify genetic motifs within a bacterial genome and predict transcriptional events.
 	* Analyzed Illumina, Pacific Biosciences, and Oxford Nanopore Technologies RNA sequencing experiments.
 	* Created tools to predict transcription units and visualize the RNA isoforms.
 – Assisted PI in preparation of grant materials to acquire federal funding: NSF MCB 2221237 - $2.00M (proposal, annual reports) | NSF MCB 1818344 - $1.50M (annual reports) | NSF MCB 1840320 - $1.18M (annual reports).
 – Maintained group’s GPU cluster and website.
 – Collaborated with industrial and academic partners, both domestic and international.
-– Presented research results to broader scientific community at domestic and international conferences
+– Presented research results to broader scientific community at domestic and international conferences.
 
 
 Primarily worked to validate and complete a manuscript on the development of a methodology to profile the bacterial transcriptome coupling bioinformatics and experiment. This included buildingt a sequence alignment based pipeline to identify genetic motifs within a bacterial genome and predict transcriptional events, analyzing Illumina, Pacific Biosciences, and Oxford Nanopore Technologies RNA sequencing experiments, and creating tools to predict transcription units and visualize the RNA isoforms.
@@ -26,20 +26,20 @@ Primarily worked to validate and complete a manuscript on the development of a m
 SEMINAR/WORKSHOP TEACHING ASSITANT - 05/2024 10/2021 07/2019
 The Luthey-Schulten Group at Univeristy of Illinois at Urbana-Champaign
 – NSF STC-QCB Advanced Computational Workshop 2024—Mentored junior graduate students to construct teaching material, installed software on supercomputer, and troubleshot errors during live tutorials.
-– Online Hands-on Workshop on Computational Biophysics—Held virtual lecture for graduate students and post-doctoral and prepared tutorials run on AWS instances.
+– Online Hands-on Workshop on Computational Biophysics—Held virtual lecture for graduate students and post-doctoral researchers and prepared tutorials run on AWS instances.
 – Center for the Physics of Living Cells (CPLC) Summer School—Held lectures for graduate students and post-doctoral associates and prepared tutorials run on AWS instances.
 
 
 UNDERGRADUATE RESEARCH ASSISTANT 12/2014-05/2017 
 The Baker Group at The College of New Jersey
-– Explored individual and multiplte type IV bacterial pilin subunit(s) dynamics and aggregation in a membrane environment using atomistic and MARTINI coarse grained molecular dynamics simulations.
+– Explored individual and multiple type IV bacterial pilin subunit(s) dynamics and aggregation in a membrane environment using atomistic and MARTINI coarse grained molecular dynamics simulations.
 – Presented research results to broader scientific community at domestic conferences.
 – Mentored junior undergraduate student researchers.
 
 
 REU SUMMER RESEARCH INTERN   05/2016 - 07/2016
 The McCullagh Group at Colorado State University
-– Worked in the McCullagh Group for a ten-week program consisting of a two week computational chemistry course and a eight week research period.
+– Worked in the McCullagh Group for a ten-week program consisting of a two-week computational chemistry course and a eight-week research period.
 – Performed molecular dynamics simulations to develop methodology for ligand binding site identification to aid drug design.
 – Presented poster of results at a poster session.
 

@@ -1,18 +1,21 @@
-I am a physical chemist by training with a background in scientific computing, specializing in biological systems. 
+I am a physical chemist by training with a background in scientific computing, specializing in biological systems. My graduate work employed bioinformatics, kinetic modeling, and next-generation sequencing analysis to understand how bacterial gene expression evolves and fluctuates. I am proficient in an array of computational tools for designing and implementing pipelines within multiple computing environments (HPC, AWS, Docker, etc.) on various operating systems (Linux, macOS, and Windows) leveraging both custom and pre-built software within standard coding languages (Python, R, Bash, etc.). I have extensive experience working in highly collaborative environments, both domestically and internationally, and I am well-practiced in presenting technical material to audiences of varying subject-matter expertise. My current interests lie in computational work targeting biological systems. I am particularly interested in R&D and/or data science-related roles. 
 
-Specifically, I have integrated principles from chemistry, physics, and statistics to investigate diverse phenomena within bacterial cells, such as a regulatory mechanisms for stress response and the interplay between the transcriptome and proteome.  
+Feel free to connect with me; I am always happy to discuss.
 
-I have achieved proficiency in a wide array of computational tools to design and implement analytical pipelines within multiple different computing environments leveraging both custom and pre-built software.
+############################################################################
 
-I have developed skills in designing, managing, and contributing to exploratory multi-year projects that require flexibility, self-assessment, reproducibility, and publication-level documentation. 
+I am a physical chemist by training with a background in scientific computing, specializing in biological systems.
 
-I have extensive experience working in highly collaborative environments, both domestically and internationally, and I am well practiced in presenting technical material to audiences of varying subject-matter expertise.
+%%%My early scientific career used molecualr dynamics to study the effect of lipid mebranes on bacterial proteins.
 
+My graduate work employed bioinformatics, kinetic modeling, and next-generation sequencing analysis to understand how bacterial gene expression evolves and fluctuates. 
 
-My current interest lie in computational work targeting biological systems. I'm especially keen on R&D and/or data science related roles. 
+I am proficient in an array of computational tools for designing and implementing pipelines within multiple computing environments (HPC, AWS, Docker, etc.) on various operating systems (Linux, macOS, and Windows), leveraging both custom and pre-built software with standard coding languages (Python, R, Bash, etc.).
 
+%%%I have achieved proficiency in a wide array of computational tools to design and implement analytical pipelines within multiple different computing environments leveraging both custom and pre-built software.
 
-Feel free to connect with me to discuss.
+%%%I have developed skills in designing, managing, and contributing to exploratory multi-year projects that require flexibility, self-assessment, reproducibility, and publication-level documentation. 
 
+I have extensive experience working in highly collaborative environments, both domestically and internationally, and I am well-practiced in presenting technical material to audiences of varying subject-matter expertise.
 
-
+My current interests lie in computational work targeting biological systems. I'm especially keen on R&D and/or data science-related roles. Feel free to connect with me; I am always happy to discuss.
