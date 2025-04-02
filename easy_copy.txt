@@ -24,7 +24,7 @@ The Luthey-Schulten Group at Univeristy of Illinois at Urbana-Champaign
 Primarily worked to validate and complete a manuscript on the development of a methodology to profile the bacterial transcriptome coupling bioinformatics and experiment. This included buildingt a sequence alignment based pipeline to identify genetic motifs within a bacterial genome and predict transcriptional events, analyzing Illumina, Pacific Biosciences, and Oxford Nanopore Technologies RNA sequencing experiments, and creating tools to predict transcription units and visualize the RNA isoforms.
 
 SEMINAR/WORKSHOP TEACHING ASSITANT - 05/2024 10/2021 07/2019
-The Luthey-Schulten Group at Univeristy of Illinois at Urbana-Champaign
+Univeristy of Illinois at Urbana-Champaign
 – NSF STC-QCB Advanced Computational Workshop 2024—Mentored junior graduate students to construct teaching material, installed software on supercomputer, and troubleshot errors during live tutorials.
 – Online Hands-on Workshop on Computational Biophysics—Held virtual lecture for graduate students and post-doctoral researchers and prepared tutorials run on AWS instances.
 – Center for the Physics of Living Cells (CPLC) Summer School—Held lectures for graduate students and post-doctoral associates and prepared tutorials run on AWS instances.
