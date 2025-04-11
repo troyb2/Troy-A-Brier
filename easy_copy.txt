@@ -11,10 +11,11 @@ The Luthey-Schulten Group at Univeristy of Illinois at Urbana-Champaign
 	* Constructed a kinetic model of the nucleotide metabolism for a bacterial cell.
 	* Curated genomics, transcriptomics, proteomics, metabolomics, and kinetic rates from experiments/databases.
 	* Updated software/code for use on high performance GPU cluster.
-– Developed a methodology to profile the bacterial transcriptome coupling bioinformatics and computational analysis of NGS experiments.
+– Developed a methodology to profile the bacterial transcriptome coupling bioinformatics predictions and computational analysis of NGS experiments.
 	* Built a sequence-alignment based pipeline to identify genetic motifs within a bacterial genome and predict transcriptional events.
 	* Analyzed Illumina, Pacific Biosciences, and Oxford Nanopore Technologies RNA sequencing experiments.
-	* Created tools to predict transcription units and visualize the RNA isoforms.
+	* Created custom tools to predict transcription units and visualize the RNA isoforms.
+	* Applied existing ML algorithms for predictive analysis on NGS experimental data.
 – Assisted PI in preparation of grant materials to acquire federal funding: NSF MCB 2221237 - $2.00M (proposal, annual reports) | NSF MCB 1818344 - $1.50M (annual reports) | NSF MCB 1840320 - $1.18M (annual reports).
 – Maintained group’s GPU cluster and website.
 – Collaborated with industrial and academic partners, both domestic and international.
@@ -93,7 +94,20 @@ People Management
 Resource Management
 Big Data Management
 Big Data Processing
-
+Adaptability
+Communication
+Critical Thinking
+Detail Oriented
+Empathy
+Interdisciplinary Collaboration
+Leadership
+Mentorship
+Motivated
+Open Mindedness
+Organized
+Problem Solving
+Teamwork
+Time Management
 
 
 ########################
