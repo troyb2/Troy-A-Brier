@@ -22,7 +22,8 @@ The Luthey-Schulten Group at Univeristy of Illinois at Urbana-Champaign
 – Presented research results to broader scientific community at domestic and international conferences.
 
 
-Primarily worked to validate and complete a manuscript on the development of a methodology to profile the bacterial transcriptome coupling bioinformatics and experiment. This included buildingt a sequence alignment based pipeline to identify genetic motifs within a bacterial genome and predict transcriptional events, analyzing Illumina, Pacific Biosciences, and Oxford Nanopore Technologies RNA sequencing experiments, and creating tools to predict transcription units and visualize the RNA isoforms.
+Primarily worked to validate and complete a manuscript on the development of a methodology to profile the bacterial transcriptome coupling bioinformatics and experiment. This included building a sequence alignment based pipeline to identify genetic motifs within a bacterial genome and predict transcriptional events, analyzing Illumina, Pacific Biosciences, and Oxford Nanopore Technologies RNA sequencing experiments, and creating tools to predict transcription units and visualize the RNA isoforms.
+
 
 SEMINAR/WORKSHOP TEACHING ASSITANT - 05/2024 10/2021 07/2019
 Univeristy of Illinois at Urbana-Champaign
@@ -61,7 +62,7 @@ HTML
 Unix/Linux
 MacOS
 Windows
-AWS
+Amazon Web Services (AWS)
 SVN
 Git
 SSH
