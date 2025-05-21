@@ -1,0 +1,14 @@
+Hello *Name*,
+
+I hope this message finds you well. 
+
+My name is Troy A. Brier, and I am contacting you in reference to a recent application I submitted at *COMPANY* for the *JOB TITLE* position. In my research for the position, I saw you were on *COMPANYS*'s recruitment team, and was hoping to connect with a real person.
+
+
+I have attached my *RESUME/CV* as well a cover letter to provide a represenation of who I am and what I would bring to the table as a *POSITION* at *COMPANY*. Briefly, I am computational chemist with a background in biological scientific computing. I have extensive experience using an assortment of methods to solve complex problems, and am looking for positions in R&D and/or data science. 
+
+If you have any questions or need any clarifications please feel free to reach out. I am eager to discuss with about my qualifications. Thank you for your time.
+
+
+Sincerely,
+      Troy A. Brier
